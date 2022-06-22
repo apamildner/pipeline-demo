@@ -1,1 +1,2 @@
-Hello there, my name is Joachim.
+Hello there, my name is Joachim. I am a F U L L S T A C K developer D E V E L O P E R and the workflow test 
+should run now.
