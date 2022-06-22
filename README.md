@@ -10,7 +10,7 @@ docker stuff as this is only there to show you how it would look if we actually 
 running a simple test, and later to integrate with the Slack API today. The point is to show how
 the workflow/pipeline can work as a glue between systems and how it can
  be used to enforce that safe code is passed on
-to the push step.
+to the push step.  
 
 ### Task 1
 When you think you understand the pipeline,
