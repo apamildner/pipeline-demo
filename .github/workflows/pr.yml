@@ -2,6 +2,8 @@ name: Pull request
 on:
   pull_request: #Only trigger this workflow on pull requests
     branches: [ "master" ]
+  tags:
+    - slack-message
 jobs:
   test:
     name: Test everything
