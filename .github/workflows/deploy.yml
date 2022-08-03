@@ -7,6 +7,7 @@ on:
   # Triggers the workflow on push events, but only on "master" branch
   push:
     branches: [ "master" ]
+    tags: ["v1.0"]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -40,6 +41,11 @@ jobs:
             exit 0
           fi
           exit 1
+          
+
+      - name: test tag
+        run:
+          echo "we are testing tag"
  # ----- DO NOT UNCOMMENT THIS, ONLY FOR EXAMPLE -----
  #       NB: Note that this also requires a Dockerfile etc which this repository is missing.
  #       run: |
