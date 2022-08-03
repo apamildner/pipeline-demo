@@ -34,12 +34,12 @@ jobs:
         # and fails the test otherwise)
         run: |
           STR=$(cat editme.txt)
-          SUB='designer'
+          SUB='developer'
           if [[ "$STR" == *"$SUB"* ]]; then
             echo "Successfully ran test for {{vars.sha_short}}. The file looks okay."
-            exit 1
+            exit 0
           fi
-          exit 0
+          exit 1
   # ----- DO NOT UNCOMMENT THIS, ONLY FOR EXAMPLE -----
   #       NB: Note that this also requires a Dockerfile etc which this repository is missing.
   #       run: |
