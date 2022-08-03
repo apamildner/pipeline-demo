@@ -1,2 +1,2 @@
-Hello guys! I'm a good pipeline develope. My name is Baloo.
-Hello guys! My name is Katarina
+Hello guys! I'm a good pipeline. My name is Baloo.
+Hello guys! My name is Katarina. I'm a developer
