@@ -37,9 +37,9 @@ jobs:
           SUB='designer'
           if [[ "$STR" == *"$SUB"* ]]; then
             echo "Successfully ran test for {{vars.sha_short}}. The file looks okay."
-            exit 0
+            exit 1
           fi
-          exit 1
+          exit 0
   # ----- DO NOT UNCOMMENT THIS, ONLY FOR EXAMPLE -----
   #       NB: Note that this also requires a Dockerfile etc which this repository is missing.
   #       run: |
